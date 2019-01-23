@@ -1,0 +1,222 @@
+body {
+    font-family: "roboto condensed", sans-serif;
+    overflow-x: hidden;
+}
+
+.firstname {
+    font-weight: 300;
+}
+
+.back-bar {
+    background-color: black;
+    height: 50px;
+}
+
+
+.navbar-brand {
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    /* padding-top: 30px; */
+}
+
+.home {
+    padding-left: 20px;
+}
+
+.brandname {
+    padding-top: 20px;
+    font-weight: 300;
+}
+
+.navbar-nav a {
+    /* padding-top: 30px; */
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.navbar-nav li {
+    padding-right: 20px;
+    /* margin-left: 0 auto; */
+}
+
+/* jumbotron */
+.banner {
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    height: 600px;
+    
+}
+
+.banner h1 {
+    padding-top: 250px;
+    padding-left: 40px;
+    /* text-align: center; */
+}
+
+.banner p {
+    margin-left: 0;
+    padding-left: 40px;
+}
+
+.button-new {
+    margin-left: 40px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: #424242;
+    border-color: #424242;
+}
+
+.button-new:hover {
+    background-color: #424242;
+    color: black;
+    cursor: pointer;
+}
+
+/* web dev */
+.web {
+    height: 750px;
+}
+
+.dev {
+    color: black;
+    opacity: .1;
+    font-size: 230px;
+    letter-spacing: 45px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 200px;
+    z-index: -1;
+    text-align: center;
+}
+
+.elegant {
+    margin-top: -340px;
+}
+
+.elegant h {
+    color: black;
+    font-size: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    padding-left: 40px;
+}
+
+.elegant p {
+    padding-top: 20px;
+    color: #414042;
+    font-weight: 400;
+    line-height: 65px;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+/* bar */
+.bar {
+    background-color: black;
+    height: 105px;
+    line-height: 10px;
+}
+
+.stuff {
+    margin-top: 30px;
+    
+}
+
+.stuff2 {
+    padding-top: 45px;
+}
+
+.bar p {
+    color: white;
+    text-align: center;
+}
+
+.bar-title {
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.bar-info {
+    font-size: 18px;
+    letter-spacing: 2px;
+    /* text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc; */
+}
+
+
+.border-right {
+    height: 45px;
+}
+
+.have {
+    text-align: right;
+    letter-spacing: 3px;
+}
+
+/* marble */
+.marble {
+    background-image: url("./images/marbleb.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.marble h1, p {
+    padding-left: 40px;
+}
+
+.marble h1 {
+    padding-top: 250px;
+}
+
+.marble p {
+    font-size: 20px;
+}
+
+.min {
+    width: 100%;
+}
+
+.marble ul {
+    padding-left: 40px;
+    font-weight: 700px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+/* footer */
+.footer-back {
+    height: 150px;
+    background-color: #131313;
+    padding-top: 50px;
+}
+
+.footer-copy {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* ABOUT PAGE */
+.aboutword {
+    background-color: black;
+    height: 170px;
+}
+
+.aboutword h1{
+    padding-left: 40px;
+    padding-top: 100px;
+    /* color: #bbbbbb; */
+}
+
+.about-section {
+    padding-top: 20px;
+    background-color: rgb(230, 230, 230);
+}
+
+.about-section p {
+    font-size: 20px;
+
+}
