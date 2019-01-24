@@ -51,12 +51,14 @@ body {
 .banner h1 {
     padding-top: 250px;
     padding-left: 40px;
+    color: #424242;
     /* text-align: center; */
 }
 
 .banner p {
     margin-left: 0;
     padding-left: 40px;
+    color: #424242;
 }
 
 .button-new {
@@ -66,6 +68,7 @@ body {
     background-color: black;
     color: #424242;
     border-color: #424242;
+
 }
 
 .button-new:hover {
@@ -96,12 +99,12 @@ body {
     margin-top: -340px;
 }
 
-.elegant h {
+.elegant h2 {
     color: black;
     font-size: 28px;
     letter-spacing: 1px;
     font-weight: 400;
-    padding-left: 40px;
+    text-align: center!important;
 }
 
 .elegant p {
@@ -110,7 +113,8 @@ body {
     font-weight: 400;
     line-height: 65px;
     font-size: 20px;
-    padding-left: 40px;
+    /* padding-left: 40px; */
+    text-align: center;
 }
 
 /* bar */
@@ -166,6 +170,7 @@ body {
 
 .marble h1, p {
     padding-left: 40px;
+    color: #424242;
 }
 
 .marble h1 {
@@ -185,6 +190,7 @@ body {
     font-weight: 700px;
     list-style-type: circle;
     list-style-position: inside;
+    color: #424242;
 }
 
 /* footer */
@@ -200,23 +206,71 @@ body {
 }
 
 /* ABOUT PAGE */
-.aboutword {
-    background-color: black;
-    height: 170px;
+.about-johnson {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 28px;
+    color: white;
 }
 
-.aboutword h1{
-    padding-left: 40px;
-    padding-top: 100px;
-    /* color: #bbbbbb; */
+.about-des {
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.top-marble {
+    background-image: url("./images/marbleb.jpg");
+    height: 200px;
+}
+
+.the-bar {
+    height: 60px;
+    background-color: black;
+}
+
+.about-back {
+    background-color: white;
+    margin-top: -100px;
+    padding: 30px;
+    padding-right: 50px;
+    padding-top: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-section {
-    padding-top: 20px;
-    background-color: rgb(230, 230, 230);
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
-.about-section p {
-    font-size: 20px;
+.about-section h1 {
+    color: #D3D3D3;
+}
 
+.testimonial {
+    height: 300px;
+    background-color: black;
+}
+
+.testimonial h1 {
+    padding-top: 50px;
+}
+
+.testimonial h1, p {
+    color: #424242;
+    text-align: center;
+}
+
+.review {
+    font-size: 36px;
+    color: white;
+}
+
+.person {
+    font-style: italic;
+}
+
+.quotes {
+    font-size: 80px;
+    font-family: "century";
 }
