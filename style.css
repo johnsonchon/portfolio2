@@ -59,6 +59,7 @@ body {
     margin-left: 0;
     padding-left: 40px;
     color: #424242;
+    text-align: left;
 }
 
 .button-new {
@@ -179,6 +180,7 @@ body {
 
 .marble p {
     font-size: 20px;
+    text-align: left;
 }
 
 .min {
@@ -206,54 +208,74 @@ body {
 }
 
 /* ABOUT PAGE */
-.about-johnson {
-    text-align: center;
-    padding-top: 80px;
-    padding-bottom: 60px;
-    font-size: 28px;
-    color: white;
-}
-
-.about-des {
-    line-height: 30px;
-    font-size: 18px;
-}
-
-.top-marble {
-    background-image: url("./images/marbleb.jpg");
-    height: 200px;
-}
-
-.the-bar {
-    height: 60px;
-    background-color: black;
-}
-
-.about-back {
-    background-color: white;
-    margin-top: -100px;
-    padding: 30px;
-    padding-right: 50px;
-    padding-top: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.collage {
+    background-image: url("./images/collage.png");
+    height: 400px;
 }
 
 .about-section {
-    padding-top: 70px;
-    padding-bottom: 50px;
+    padding-top: 200px;
+    /* background-image: url("./images/marbleb.jpg"); */
+    background-color: black;
 }
 
-.about-section h1 {
-    color: #D3D3D3;
+
+.about-back {
+    height: 500px;
+    padding-left: 40px;
+}
+
+.about-back h1 {
+    color: #424242;
+    text-align: left;
+    padding-top: 100px;
+}
+
+.about-back p {
+    text-align: left;
+    padding-left: 0;
+    font-size: 20px;
+    margin-right: 0;
+}
+
+
+.line {
+    height: 1px;
+    background-color: #424242;
+    margin-top: 80px;
+    width: 30px;
+}
+
+.line1 {
+    margin-top: 20px;
+}
+
+.about-back img {
+    width: 60px;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+
+.me-img {
+    width: 100%;
 }
 
 .testimonial {
     height: 300px;
-    background-color: black;
+    background-image: url("./images/marbleb.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .testimonial h1 {
     padding-top: 50px;
+}
+
+.testimonial p {
+    padding-left: 0;
 }
 
 .testimonial h1, p {
@@ -264,10 +286,11 @@ body {
 .review {
     font-size: 36px;
     color: white;
+    font-style: italic;
 }
 
 .person {
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .quotes {
