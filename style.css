@@ -51,14 +51,14 @@ body {
 .banner h1 {
     padding-top: 250px;
     padding-left: 40px;
-    color: #424242;
+    color: #909090;
     /* text-align: center; */
 }
 
 .banner p {
     margin-left: 0;
     padding-left: 40px;
-    color: #424242;
+    color: #686868;
     text-align: left;
 }
 
@@ -67,13 +67,13 @@ body {
     width: 200px;
     height: 40px;
     background-color: black;
-    color: #424242;
-    border-color: #424242;
+    color: #686868;
+    border-color: #686868;
 
 }
 
 .button-new:hover {
-    background-color: #424242;
+    background-color: #686868;
     color: black;
     cursor: pointer;
 }
@@ -110,7 +110,7 @@ body {
 
 .elegant p {
     padding-top: 20px;
-    color: #414042;
+    color: #686868;
     font-weight: 400;
     line-height: 65px;
     font-size: 20px;
@@ -169,18 +169,18 @@ body {
     background-size: cover;
 }
 
-.marble h1, p {
-    padding-left: 40px;
-    color: #424242;
-}
 
 .marble h1 {
     padding-top: 250px;
+    color: #909090;
+    padding-left: 40px;
 }
 
 .marble p {
     font-size: 20px;
     text-align: left;
+    padding-left: 40px;
+    color: #686868;
 }
 
 .min {
@@ -192,7 +192,7 @@ body {
     font-weight: 700px;
     list-style-type: circle;
     list-style-position: inside;
-    color: #424242;
+    color: #686868;
 }
 
 /* footer */
@@ -209,14 +209,29 @@ body {
 
 /* ABOUT PAGE */
 .collage {
+    /* background-color: white; */
     background-image: url("./images/collage.png");
-    height: 400px;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    height: 120px;
+    
+}
+
+.white-line {
+    height: 70px;
+    background-color: white;
 }
 
 .about-section {
-    padding-top: 200px;
+    padding-top: 50px;
     /* background-image: url("./images/marbleb.jpg"); */
     background-color: black;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 
@@ -225,10 +240,18 @@ body {
     padding-left: 40px;
 }
 
+.about-des {
+    margin-right: 40px;
+}
+
 .about-back h1 {
-    color: #424242;
+    color: #686868;
     text-align: left;
-    padding-top: 100px;
+    padding-top: 140px;
+}
+
+.line-under {
+    background-color: white;
 }
 
 .about-back p {
@@ -238,10 +261,17 @@ body {
     margin-right: 0;
 }
 
+.about-back ul li {
+    color: #686868;
+    list-style-type: circle;
+    list-style-position: inside;
+    color: #686868;
+}
+
 
 .line {
     height: 1px;
-    background-color: #424242;
+    background-color: #686868;
     margin-top: 80px;
     width: 30px;
 }
@@ -251,14 +281,56 @@ body {
 }
 
 .about-back img {
-    width: 60px;
+    /* width: 80px; */
+    max-width: 100%;
     margin-top: 10px;
     margin-right: 40px;
     margin-bottom: 20px;
+    padding-right: 20px;
 }
+
+.skills-area {
+    padding-top: 30px;
+    background-image: url("./images/marbleb.jpg");
+    /* background-color: #131313; */
+}
+
+.skills-area img {
+    width: 100px;
+    margin: auto;
+}
+
+
+.skills {
+    margin-right: 130px;
+}
+
+.skills p {
+    padding-top: 20px;
+}
+
 
 .me-img {
     width: 100%;
+    margin-top: -150px;
+}
+
+/* history */
+.history-b {
+    height: 600px;
+}
+
+.history-lines {
+    border-color: #131313;
+    border-left: #131313;
+    border-width: 1px;
+    height: 550px;
+
+}
+
+.history {
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .testimonial {
@@ -279,7 +351,7 @@ body {
 }
 
 .testimonial h1, p {
-    color: #424242;
+    color: #686868;
     text-align: center;
 }
 
