@@ -1,5 +1,5 @@
 body {
-    font-family: "roboto condensed", sans-serif;
+    font-family: "oswald", sans-serif;
     overflow-x: hidden;
 }
 
@@ -31,13 +31,18 @@ body {
 
 .navbar-nav a {
     /* padding-top: 30px; */
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 2px;
 }
 
 .navbar-nav li {
     padding-right: 20px;
     /* margin-left: 0 auto; */
+}
+
+.dropdown-item:active {
+    background-color: #131313;
 }
 
 /* jumbotron */
@@ -51,14 +56,15 @@ body {
 .banner h1 {
     padding-top: 250px;
     padding-left: 40px;
-    color: #909090;
+    font-weight: 200;
+    color: white;
     /* text-align: center; */
 }
 
 .banner p {
     margin-left: 0;
     padding-left: 40px;
-    color: #686868;
+    color: #a6a6a6;
     text-align: left;
 }
 
@@ -67,13 +73,13 @@ body {
     width: 200px;
     height: 40px;
     background-color: black;
-    color: #686868;
-    border-color: #686868;
+    color: #a6a6a6;
+    border-color: #a6a6a6;
 
 }
 
 .button-new:hover {
-    background-color: #686868;
+    background-color: #a6a6a6;
     color: black;
     cursor: pointer;
 }
@@ -101,21 +107,23 @@ body {
 }
 
 .elegant h2 {
-    color: black;
+    color: #252525;
     font-size: 28px;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 300;
     text-align: center!important;
+    font-style: italic;
 }
 
 .elegant p {
     padding-top: 20px;
-    color: #686868;
-    font-weight: 400;
+    color: #252525;
+    font-weight: 300;
     line-height: 65px;
     font-size: 20px;
     /* padding-left: 40px; */
     text-align: center;
+    font-style: italic;
 }
 
 /* bar */
@@ -167,12 +175,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 40px;
 }
 
 
 .marble h1 {
     padding-top: 250px;
-    color: #909090;
+    font-weight: 200;
+    color: white;
     padding-left: 40px;
 }
 
@@ -180,7 +190,8 @@ body {
     font-size: 20px;
     text-align: left;
     padding-left: 40px;
-    color: #686868;
+    font-weight: 200;
+    color: #a6a6a6;
 }
 
 .min {
@@ -189,10 +200,10 @@ body {
 
 .marble ul {
     padding-left: 40px;
-    font-weight: 700px;
+    font-weight: 200;
     list-style-type: circle;
     list-style-position: inside;
-    color: #686868;
+    color: #a6a6a6;
 }
 
 /* footer */
@@ -215,14 +226,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; */
-    height: 120px;
-    
+    height: 180px;
+}
+
+.m-area {
+    padding-left: 40px;
+    padding-top: 100px;
+    color: #909090;
 }
 
 .white-line {
-    height: 70px;
+    height: 50px;
+    /* background-image: url("./images/marbleb.jpg"); */
     background-color: white;
 }
+
 
 .about-section {
     padding-top: 50px;
@@ -245,9 +263,10 @@ body {
 }
 
 .about-back h1 {
-    color: #686868;
+    color: white;
     text-align: left;
-    padding-top: 140px;
+    padding-top: 80px;
+    font-weight: 200;
 }
 
 .line-under {
@@ -259,19 +278,21 @@ body {
     padding-left: 0;
     font-size: 20px;
     margin-right: 0;
+    font-weight: 200;
 }
 
 .about-back ul li {
-    color: #686868;
+    color: #a6a6a6;
     list-style-type: circle;
     list-style-position: inside;
-    color: #686868;
+    color: #a6a6a6;
+    font-weight: 200;
 }
 
 
 .line {
     height: 1px;
-    background-color: #686868;
+    background-color: #a6a6a6;
     margin-top: 80px;
     width: 30px;
 }
@@ -312,29 +333,33 @@ body {
 
 .me-img {
     width: 100%;
-    margin-top: -150px;
+    margin-top: -180px;
 }
 
 /* history */
 .history-b {
-    height: 600px;
+    height: 850px;
 }
 
-.history-lines {
-    border-color: #131313;
-    border-left: #131313;
-    border-width: 1px;
+.history-line {
+    margin-left: 30px;
+    width: 1px;
     height: 550px;
 
 }
 
 .history {
-    padding-top: 80px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 130px;
+}
+
+.history p {
+    text-align: left;
+    font-weight: 300;
 }
 
 .testimonial {
-    height: 300px;
+    height: 500px;
     background-image: url("./images/marbleb.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -343,7 +368,7 @@ body {
 }
 
 .testimonial h1 {
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .testimonial p {
@@ -351,9 +376,10 @@ body {
 }
 
 .testimonial h1, p {
-    color: #686868;
+    color: #a6a6a6;
     text-align: center;
 }
+
 
 .review {
     font-size: 36px;
@@ -361,11 +387,113 @@ body {
     font-style: italic;
 }
 
-.person {
-    /* font-style: italic; */
-}
 
 .quotes {
     font-size: 80px;
     font-family: "century";
 }
+
+/* about footer */
+.footer-back2 {
+    height: 150px;
+    background-color: #131313;
+    padding-top: 50px;
+}
+
+.footer-copy2 {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* portfolio */
+.port-top {
+    text-align: center;
+    background-color: black;
+    background-image: url("./images/collage2.png");
+    height: 400px;
+    padding-top: 120px;
+}
+
+.port-top h1 {
+    font-size: 80px;
+    font-weight: 200;
+    color: white;
+}
+
+.port-top p {
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.marble2 {
+    padding-top: 200px;
+}
+
+/* contact */
+form {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.form-area {
+    height: 550px;
+}
+
+.form-control {
+    font-weight: 200;
+}
+
+.button-contact {
+    padding-left: none;
+}
+
+.button-contact {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: #a6a6a6;
+    border-color: #a6a6a6;
+
+}
+
+.button-contact:hover {
+    background-color: #a6a6a6;
+    border-color: #a6a6a6;
+    color: black;
+    cursor: pointer;
+}
+
+.message {
+    height: 200px;
+    max-width: 100%;
+}
+
+/* trestle watch co page */
+.tres-top {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.tres-top h1 {
+    font-weight: 200;
+}
+
+.tres-top p {
+    font-weight: 300;
+    font-size: 18px;
+    color: gray;
+}
+
+.trestbanner {
+    background-image: url("./images/everything.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.tech {
+    background-color: black;
+    height: 600px;
+}
+

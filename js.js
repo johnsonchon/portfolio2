@@ -2,6 +2,7 @@ $(".btn-c").click(function () {
     $(".hello").html("THANKS FOR THE MESSAGE!");
 });
 
+
 // dynamic weather stuff
 
 var APIKey = "4461bceb6894c2af3ce32c717fa40ac5";
