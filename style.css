@@ -493,13 +493,17 @@ form {
 }
 
 .tres-story {
-    background-color: black;
-    height: 400px;
+    background-image: url("./images/marbleb.jpg");
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tres-story h1 {
     color: white;
-    padding-top: 140px;
+    padding-top: 300px;
     font-weight: 200;
     text-align: center;
 }
@@ -512,13 +516,10 @@ form {
 }
 
 .chob {
-    background-image: url("./images/marbleb.jpg");
-    padding-top: 150px;
+    /* background-image: url("./images/marbleb.jpg"); */
+    background-color: black;
+    padding-top: 180px;
     height:600px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .chob h2 {
@@ -543,4 +544,95 @@ form {
 .tres-mac img {
     margin: 0 auto;
     max-width: 100%;
+}
+
+/* mw polar foods page */
+.polarbanner {
+    background-image: url("./images/everything2.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+
+.project-area {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.project-area h2 {
+    text-align: center;
+    font-weight: 300;
+}
+
+.project-area p {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.project-div {
+    padding-top: 50px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    height: 350px;
+    border: none;
+}
+
+.card-body h5 {
+    font-weight: 400;
+}
+
+.card-body p {
+    text-align: left;
+}
+
+.card-title {
+    text-align: center;
+    color: #252525;
+    font-size: 16px;
+}
+
+.button-card {
+    padding-left: none;
+}
+
+.button-card {
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-color: #a6a6a6;
+    font-weight: 200;
+
+}
+
+.button-card:hover {
+    background-color: #a6a6a6;
+    border-color: #a6a6a6;
+    color: black;
+    cursor: pointer;
+}
+
+/* Projects */
+.work-header {
+    padding-bottom: 80px;
+}
+
+.work-area {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background-color: #F8F8F8;
+}
+
+.work-area img {
+    width: 700px;
+    /* margin: 0 auto; */
+}
+
+.work-area p {
+    padding-bottom: 70px;
+    font-weight: 200;
+    font-size: 18px;
+    color: black;
 }
