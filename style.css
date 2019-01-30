@@ -492,8 +492,55 @@ form {
     background-size: cover;
 }
 
-.tech {
+.tres-story {
     background-color: black;
-    height: 600px;
+    height: 400px;
 }
 
+.tres-story h1 {
+    color: white;
+    padding-top: 140px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.tres-story p {
+    color: white;
+    /* text-align: left; */
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.chob {
+    background-image: url("./images/marbleb.jpg");
+    padding-top: 150px;
+    height:600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.chob h2 {
+    color: white;
+    font-weight: 300;
+
+}
+
+.chob ul li {
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.mac-area {
+    padding-top: 140px;
+    padding-bottom: 150px;
+}
+
+.tres-mac img {
+    margin: 0 auto;
+    max-width: 100%;
+}
